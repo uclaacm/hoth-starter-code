@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    {{!-- Go to https://getbootstrap.com/docs/4.0/getting-started/introduction/ for Bootstrap documentation! --}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">My App</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <div class="container">
+        <div class="card" style="width: 20rem;">
+            <div class="card-header">
+                {{name}}
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{email}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
